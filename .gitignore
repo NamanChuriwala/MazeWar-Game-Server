@@ -1,0 +1,11 @@
+bin/
+build/
+<<<<<<< HEAD
+test_output/
+=======
+*.o
+*.d
+>>>>>>> HW5_CODE/master
+*~
+*.out
+*.bak
