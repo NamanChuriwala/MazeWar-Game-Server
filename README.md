@@ -27,5 +27,5 @@ and possibly sends one or more packets in response.  The server will also
 send packets to the client as the result of actions performed by other users.
 For example, if one user moves their avatar into "view" of another user's
 avatar, then packets will be sent by the server to the second user's client to
-cause the display to update to show the change.
+cause the display to update to show the change..
 
