@@ -1,7 +1,7 @@
 # MazeWar-Game-Server
 "MazeWar" is a real-time network game in which the players control avatars
 that move around a maze and shoot lasers at each other.
-A maze is a two-dimensional array, each cell of which can be occupied by
+A maze is a two-dimensional array where each cell of which can be occupied by
 an avatar, a solid object (i.e. a "wall"), or empty space.
 At any given time, each avatar has a particular location in the maze and a
 particular direction of gaze.  There are four such directions: NORTH,
@@ -28,3 +28,4 @@ send packets to the client as the result of actions performed by other users.
 For example, if one user moves their avatar into "view" of another user's
 avatar, then packets will be sent by the server to the second user's client to
 cause the display to update to show the change.
+
